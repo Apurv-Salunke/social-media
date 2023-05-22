@@ -1,0 +1,53 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any compiled files or build directories
+dist/
+build/
+out/
+bin/
+
+# Ignore environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs and other generated files
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.bak
+*.swp
+*~
+
+# Ignore compiled binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore archives and compressed files
+*.zip
+*.rar
+*.gz
+*.gzip
+*.tar
+*.7z
