@@ -1,4 +1,5 @@
 {
+  "main": "./dist/server.generated.js",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
@@ -21,6 +22,11 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "helmet": "^7.0.0"
+    "express-jwt": "^8.4.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0"
   }
 }
